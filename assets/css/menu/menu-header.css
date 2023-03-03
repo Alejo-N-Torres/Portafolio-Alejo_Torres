@@ -1,0 +1,16 @@
+.menu__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap: 0.5rem;
+    box-sizing: content-box;
+    width: 100%;
+    height: 1.5rem;
+}
+
+@media screen and (max-width:960px){
+    .menu__header{
+        gap: 0;
+    }
+}

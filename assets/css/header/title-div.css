@@ -1,0 +1,17 @@
+.title__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    order: -1;
+}
+
+@media screen and (max-width:960px){
+    .title__div{
+        flex-direction: column-reverse;
+        box-sizing: content-box;
+        width: 100%;
+        padding-top: 1rem;
+    }
+}

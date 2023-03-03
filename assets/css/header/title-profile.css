@@ -1,0 +1,18 @@
+.title__profile{
+    width: 15rem;
+    padding: 5px;
+    order: 2;
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+}
+
+
+@media screen and (max-width:960px){
+    .title__profile{
+        width: 10rem;
+    }
+}

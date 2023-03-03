@@ -1,0 +1,8 @@
+.formcontato__text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    box-sizing: content-box;
+    width: 100%;
+}

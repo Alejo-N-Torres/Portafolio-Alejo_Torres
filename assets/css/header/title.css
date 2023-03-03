@@ -1,0 +1,27 @@
+.title{
+    height: 67vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    background-image: linear-gradient(
+        0deg, 
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../../img/header/background_home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:960px){
+    .title{
+        padding: 0rem;
+    }
+}

@@ -1,0 +1,19 @@
+.menu__list{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+@media screen and (max-width:960px){
+    .menu__list{
+
+        max-width: 960px;
+    }
+    .menu__list{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+
+}
+
+

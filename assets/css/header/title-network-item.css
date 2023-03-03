@@ -1,0 +1,47 @@
+.title__network__item{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5625rem;
+    line-height: 1.1875rem;
+    margin-top: 2rem;
+    color: #cbcbcb;
+}
+.title__network__item a{
+    color: #cbcbcb;
+}
+.title__network__item a:hover{
+    color: #cb0000;
+}
+
+@media screen and (max-width:960px){
+    .title__network__item{
+        font-size: 1rem;
+        line-height: 0.7rem;
+        width: 4.6875rem;
+        background: #763626;
+        border: 1px solid #763626;
+        box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+        color: #fcfcfc;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 16px;
+        min-height: 40px;
+        padding: 10px 0.5rem;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    .title__network__item a:hover{
+        color: #cbcbcb;
+    }
+    .title__network__item img{
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+.skills__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills__img img{
+    width: 5.625rem;
+}

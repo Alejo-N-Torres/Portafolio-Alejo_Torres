@@ -1,0 +1,10 @@
+.formcontato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 0.25rem;
+    margin: 0;
+}
+

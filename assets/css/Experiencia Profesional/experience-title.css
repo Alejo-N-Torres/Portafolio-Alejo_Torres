@@ -1,0 +1,13 @@
+.experience__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 38px;
+    text-align: center;
+}
+
+@media screen and (max-width:960px){
+    .experience__title{
+        margin: 0.5rem;
+    }
+}

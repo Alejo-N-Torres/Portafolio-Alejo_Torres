@@ -1,0 +1,32 @@
+.formcontato__textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: content-box;
+    width: 100%;
+    height: 8.3125rem;
+    border-radius: 1.5;
+    -webkit-border-radius: 1.5;
+    -moz-border-radius: 1.5;
+    -ms-border-radius: 1.5;
+    -o-border-radius: 1.5;
+    font-size: 0.9rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    resize: none;
+}
+
+/*@media screen and (max-width:960px){
+    .formcontato__textarea{
+        width: 30rem;
+        height: 4.15625rem;
+        font-size: 0.50rem;
+    }
+}
+
+@media screen and (max-width:480px){
+    .formcontato__textarea{
+        width: 19.8125rem;
+    }
+}*/
+

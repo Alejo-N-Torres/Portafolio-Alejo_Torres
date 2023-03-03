@@ -1,0 +1,6 @@
+.formcontato__form__box, .formcontato__form__box--invalid{
+    display: flex;
+    box-sizing: content-box;
+    width: 100%;
+}
+

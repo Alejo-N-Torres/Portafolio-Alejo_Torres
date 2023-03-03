@@ -1,0 +1,15 @@
+.academic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 0.25rem;
+}
+
+@media screen and (max-width:960px){
+    .academic{
+        padding-top: 2.5rem;
+    }
+}

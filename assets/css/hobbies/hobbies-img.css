@@ -1,0 +1,9 @@
+.hobbies__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies__img img{
+    width: 5.625rem;
+}

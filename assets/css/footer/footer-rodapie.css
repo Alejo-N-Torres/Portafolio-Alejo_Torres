@@ -1,0 +1,9 @@
+.footer__rodapie{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    gap: 10px;
+    color: #f5f5f5;
+}

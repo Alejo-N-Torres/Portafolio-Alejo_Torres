@@ -1,0 +1,9 @@
+.title__network{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    box-sizing: content-box;
+    width: 100%;
+}

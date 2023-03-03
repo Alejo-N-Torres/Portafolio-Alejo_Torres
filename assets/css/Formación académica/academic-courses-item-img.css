@@ -1,0 +1,7 @@
+.academic__courses__item__img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

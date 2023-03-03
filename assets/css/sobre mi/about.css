@@ -1,0 +1,16 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+
+@media screen and (max-width:960px){
+    .about{
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}

@@ -1,0 +1,24 @@
+.skills__box{
+    margin-left:  2rem;
+    margin-right: 2rem;
+    transform: 1s ease-in-out;
+    -webkit-transform: 1s ease-in-out;
+    -moz-transform: 1s ease-in-out;
+    -ms-transform: 1s ease-in-out;
+    -o-transform: 1s ease-in-out;
+}
+.skills__box:hover{
+    scale: 1.5;
+}
+.skills__box ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width:960px){
+    .skills__box:hover{
+        scale: 1;
+    }
+}
